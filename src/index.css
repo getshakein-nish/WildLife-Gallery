@@ -212,8 +212,31 @@ cursor: pointer;
 padding: 10px 0;
 }
 input[type="text"] {
-  height: 50px;
+  height: 30px;
   }  
 input[type="email"] {
   height: 40px;
   }
+
+input[type="file"] {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#4e4e4e;
+    color: white;
+    }
+
+.verify{
+  margin: 0px 20px;
+}
+
+button{
+  height: 35px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 0 10px;
+  background-color: #4e4e4e;
+  color: white;
+}
